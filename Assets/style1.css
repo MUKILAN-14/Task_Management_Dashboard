@@ -1,0 +1,20 @@
+#content{
+    border-radius: 2vmax;
+    box-shadow: 0vmax 0.5vmax 3vmax 0.6vmax rgb(5, 5, 5);
+    background-color: #de90ea;
+    background-image: linear-gradient(to top left, rgba(255, 0, 0, 0), rgb(56,79,174));
+    margin: 2vmax;
+    padding-top: 1vmax;
+    padding: 5vmax;
+}
+#content2{
+    background-image: url("/Assets/images/Logo.png");
+    background-color: rgba(5, 5, 5, 0.2);
+    background-size: 100% 100%;
+    border-radius: 2vmax;
+    padding:3vmax;
+}
+#content li{
+    list-style-type: none;
+    margin: 2vmax;
+}

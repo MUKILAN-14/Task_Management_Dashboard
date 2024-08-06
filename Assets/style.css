@@ -1,0 +1,95 @@
+#header1{
+    box-shadow: 0vmax 0.5vmax 3vmax 0.6vmax rgb(5, 5, 5);
+    background-image: linear-gradient(to top left, rgba(255, 0, 0, 0), rgb(56,79,174));
+    background-color: #de90ea;
+    border-radius: 2vmax;
+    background-size: 100% 100%;
+}
+#nav img{
+    filter: drop-shadow(1.5vmax 1.2vmax 0.7vmax rgba(0, 0, 0,0.5));
+    height: 15%;
+    width: 15%;
+    margin-top:2vmax;
+    margin-left: auto;
+    margin-right: 1vmax;
+}
+#nav{
+    display: flex;  
+}
+nav{
+   display: flex;
+   padding-top: 1vmax;
+}
+nav ul{
+    padding: 1vmax;
+    display: flex;
+    list-style-type: none;
+}
+
+ul li a{
+    background-color: #e4dbf7;
+    border-radius: 2vmax;
+    margin-left: 2vmax;
+    padding: 0.5vmax;
+    padding-left: 2vmax;
+    padding-right: 2vmax;
+    text-decoration:none;
+    color: rgb(10,25,71);
+    box-shadow: 1vmax 0.6vmax 1.5vmax 0.5vmax rgba(0, 0, 0, 0.4); 
+}
+.head{
+    text-align: center;
+    flex-direction: row;
+    margin-top: 3vmax;
+    overflow: hidden;
+    margin: 1.5vmax;
+}
+
+.head div{
+    font-size: 1vmax;
+    padding: 1vmax;
+    overflow-x: hidden;
+}
+.head div p{
+    line-height: 2vmax;
+}
+
+.head img{
+    filter: drop-shadow(0vmax 1vmax 1vmax rgba(0, 0, 0,0.4));
+    width: 71%;
+    height: 40%;
+    margin: 2vmax;
+}
+#way{
+    font-style: italic;
+    background-color:#e4dbf7 ;
+    background-size: 30vmax;
+    border-color: rgb(190, 190, 190);
+    font-size:1.5vmax;
+    margin-left: 34%;
+    border-radius: 1.5vmax;
+    height: 5%;
+    width: 35%;
+    padding: 1.5vmax;
+    filter: drop-shadow(0vmax 0.5vmax 1vmax rgba(0, 0, 0,0.5));
+    color: #222568;
+}
+
+button:hover{
+    box-shadow: 0vmax 0vmax 3vmax 0.1vmax rgb(56,79,174); 
+    font-weight: bolder;
+    transition: all 0.2s;
+}
+
+nav ul li a:hover{
+    font-weight: bolder;
+    background-image: linear-gradient(to top left, rgb(246, 246, 247), #de90ea);
+    background-color: #de90ea;
+    transition: all 0.3s;
+}
+
+.container{
+    margin:3vmax;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1vmax;
+}
