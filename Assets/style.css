@@ -56,7 +56,7 @@ ul li a{
 
 .head img{
     filter: drop-shadow(0vmax 1vmax 1vmax rgba(0, 0, 0,0.4));
-    width: 90%;
+    width: 80%;
     height:50%;
     margin: 2vmax;
 }
