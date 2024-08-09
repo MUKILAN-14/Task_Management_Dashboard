@@ -14,11 +14,16 @@
     border-radius: 2vmax;
     padding:3vmax;
 }
-h1{
-    color: #222568;
+h1,h4,h2{
+    color: #252853;
 }
-
-
+#logo{
+    height: 25%;
+    width: 30%;
+    margin-left:35% ;
+    filter: drop-shadow(1.5vmax 1vmax 0.7vmax rgba(0, 0, 0,0.5));
+  
+}
 
 
 #content li{
