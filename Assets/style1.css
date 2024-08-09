@@ -8,12 +8,19 @@
     padding: 5vmax;
 }
 #content2{
-    background-image: url("/Assets/images/Logo.png");
-    background-color: rgba(5, 5, 5, 0.2);
+    color: rgb(190, 190, 190);
+    background-color: rgba(5, 5, 5, 0.1);
     background-size: 100% 100%;
     border-radius: 2vmax;
     padding:3vmax;
 }
+h1{
+    color: #222568;
+}
+
+
+
+
 #content li{
     list-style-type: none;
     margin: 2vmax;
