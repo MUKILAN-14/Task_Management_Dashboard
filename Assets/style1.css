@@ -8,11 +8,12 @@
     padding: 5vmax;
 }
 #content2{
+    text-align: justify;
     color: rgb(190, 190, 190);
     background-color: rgba(5, 5, 5, 0.1);
     background-size: 100% 100%;
     border-radius: 2vmax;
-    padding:3vmax;
+    padding:5vmax;
 }
 h1,h4,h2,h5{
     color: #252853;
