@@ -8,9 +8,8 @@
     padding: 5vmax;
 }
 #content2{
-    text-align: justify;
     color: rgb(190, 190, 190);
-    background-color: rgba(5, 5, 5, 0.1);
+    background-color: rgba(5, 5, 5, 0.2);
     background-size: 100% 100%;
     border-radius: 2vmax;
     padding:5vmax;
@@ -23,9 +22,27 @@ h1,h4,h2,h5{
     width: 25%;
     margin-left:38%;
     filter: drop-shadow(1.5vmax 1vmax 0.7vmax rgba(0, 0, 0,0.5));
-  
 }
 
+#way{
+    font-style: italic;
+    background-color:#ee4c4b;
+    background-size: 30vmax;
+    border-color: rgb(190, 190, 190);
+    font-size:1.5vmax;
+    margin-left: 25%;
+    border-radius: 1.5vmax;
+    height: 5%;
+    width: 50%;
+    padding: 1.5vmax;
+    filter: drop-shadow(0vmax 0.5vmax 1vmax rgba(0, 0, 0,0.5));
+    color: #ffffff;
+}
+button:hover{
+    box-shadow: 0vmax 0vmax 3vmax 0.1vmax rgb(251,172,52); 
+    font-weight: bolder;
+    transition: all 0.2s;
+}
 
 #content li{
     list-style-type: none;
