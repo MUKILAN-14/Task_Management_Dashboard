@@ -37,7 +37,7 @@ h1,h4,h2,h5{
     width: 50%;
     padding: 1.5vmax;
     filter: drop-shadow(0vmax 0.5vmax 1vmax rgba(0, 0, 0,0.5));
-    color: rgb(190, 190, 190);
+    color: rgb(255, 255, 255);
 }
 button:hover{
     box-shadow: 0vmax 0vmax 3vmax 0.1vmax rgb(251,172,52); 
