@@ -62,7 +62,7 @@ ul li a{
 }
 #way{
     font-style: italic;
-    background-color:#e4dbf7 ;
+    background-color:#ee4c4b ;
     background-size: 30vmax;
     border-color: rgb(190, 190, 190);
     font-size:1.5vmax;
@@ -72,7 +72,7 @@ ul li a{
     width: 35%;
     padding: 1.5vmax;
     filter: drop-shadow(0vmax 0.5vmax 1vmax rgba(0, 0, 0,0.5));
-    color: #222568;
+    color: #ffffff;
 }
 
 button:hover{
