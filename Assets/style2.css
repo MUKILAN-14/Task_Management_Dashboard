@@ -1,5 +1,6 @@
 body{
     background-color:rgb(56,79,174) ;
+    width: 100%;
 }
 #main{
     background-color:#fbf3eb ;
@@ -7,18 +8,19 @@ body{
     box-shadow: 0vmax 0.5vmax 3vmax 0.6vmax rgb(5, 5, 5);
     padding: 2.5vmax;
     margin: 6vmax;
+    display: flex;
 }
 #menu{
-    border-radius: 3vmax;
-    box-shadow: 0vmax 0.5vmax 3vmax 0.6vmax rgb(5, 5, 5);
+    
     text-align: center;
     width: 10%;
-    padding: 1vmax;
-    margin: 2vmax;
+    margin-right: 2vmax;
+    
 }
 #menu li{
     list-style-type: none;
 }
+
 #logo{
     height: 8vmax;
     width: 8vmax; 
@@ -28,12 +30,20 @@ body{
     height: 2vmax;
     width: 2vmax;
 }
+
 @media (max-width:960px) {
+    #main{
+        display: grid;
+    }
     #menu{
         padding: 2vmax;
-        justify-content: center;
         align-items: center;
         width: auto;
         display: flex;
     }
 }
+@media (min-width:320px) {.container{width:99%;}}
+@media (min-width:481px) {.container{width:99%;}}
+@media (min-width:641px) {.container{width:99%;}}
+@media (min-width:961px) {.container{width:99%;}}
+@media (min-width:1000px) {.container{width:99%;}}
