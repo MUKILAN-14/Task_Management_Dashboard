@@ -1,16 +1,27 @@
 body{
-    background-color:#74b4c4 ;
+    background-color:rgb(56,79,174) ;
 }
 #main{
     background-color:#fbf3eb ;
     border-radius: 3vmax;
     box-shadow: 0vmax 0.5vmax 3vmax 0.6vmax rgb(5, 5, 5);
-    padding: 3vmax;
+    padding: 2.5vmax;
     margin: 6vmax;
 }
+#menu{
+    border-radius: 3vmax;
+    box-shadow: 0vmax 0.5vmax 3vmax 0.6vmax rgb(5, 5, 5);
+    text-align: center;
+    width: 10%;
+    padding: 1vmax;
+    margin: 2vmax;
+}
+#menu li{
+    list-style-type: none;
+}
 #logo{
-    height: 10vmax;
-    width: 10vmax; 
+    height: 8vmax;
+    width: 8vmax; 
 }
 #menu li img{
     margin: 0.8vmax;
@@ -18,7 +29,11 @@ body{
     width: 2vmax;
 }
 @media (max-width:960px) {
-    #menu,#menu ul{
+    #menu{
+        padding: 2vmax;
+        justify-content: center;
+        align-items: center;
+        width: auto;
         display: flex;
     }
 }
