@@ -9,11 +9,16 @@ body{
     margin: 6vmax;
 }
 #logo{
-    height: 10%;
-    width: 10%; 
+    height: 10vmax;
+    width: 10vmax; 
 }
 #menu li img{
-    margin: 1%;
-    height: 3%;
-    width: 3%;
+    margin: 0.8vmax;
+    height: 2vmax;
+    width: 2vmax;
+}
+@media (max-width:960px) {
+    #menu,#menu ul{
+        display: flex;
+    }
 }
