@@ -1,0 +1,24 @@
+body{
+    background-color:#74b4c4 ;
+}
+#main{
+    background-color:#fbf3eb ;
+    border-radius: 3vmax;
+    box-shadow: 0vmax 0.5vmax 3vmax 0.6vmax rgb(5, 5, 5);
+    padding: 3vmax;
+    margin: 6vmax;
+}
+#logo{
+    height: 10%;
+    width: 10%; 
+}
+
+@media (max-width:600px) {
+    
+}
+
+#menu li img{
+    margin: 1%;
+    height: 3%;
+    width: 3%;
+}
