@@ -26,15 +26,16 @@ body{
 }
 #menu li img{
     margin: 0.8vmax;
-    margin-left: 3vmax;
-    height: 2vmax;
-    width: 2vmax;
+    margin-left: 2.5vmax;
+    height: 3vmax;
+    width: 3vmax;
 }
 #content{
     font-size: 1.3vmax;
     border-radius: 2vmax;
     background-color: rgb(214, 214, 214);
-    margin: 4vmax;
+    margin-left: 1vmax;
+    padding: 2vmax;
 }
 .box{
     justify-content: center;
@@ -51,8 +52,8 @@ body{
     text-align: center;
 }
 #add img{
-    height: 50%;
-    width: 50%;
+    height: 100%;
+    width: 100%;
 }
 
 #add:hover{
@@ -65,19 +66,20 @@ body{
     #menu{
         padding: 2vmax;
         align-items: center;
-        width: auto;
         display: flex;
+    }
+    #menu li img{
+        margin-left: 1vmax;
     }
     #content{
         display: block;
-        width: auto;
-        
+        margin-left: 7vmax;
+        margin-right: 7vmax;
     }
     .box{
         display:block;
-        width: 50%;
-        margin-left: 25%;
-        justify-content: bas;
+        width: 100%;
+        justify-content: center;
         
     }
 }
