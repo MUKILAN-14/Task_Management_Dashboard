@@ -1,5 +1,5 @@
 body{
-    background-color:#de90ea ;
+    background-color:#74b4c4 ;
 }
 #main{
     background-color:#fbf3eb ;
@@ -12,11 +12,6 @@ body{
     height: 10%;
     width: 10%; 
 }
-
-@media (max-width:600px) {
-    
-}
-
 #menu li img{
     margin: 1%;
     height: 3%;
