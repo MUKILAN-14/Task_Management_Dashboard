@@ -4,3 +4,6 @@ function navigatetonextpage(){
 function navigateTodashboard(){
     window.location.href='index2.html';
 }
+function addingtasks(){
+    window.location.href='index.html';
+}

@@ -5,16 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
     <link rel="Stylesheet" href="Assets/style2.css" type="text/css">
+    <script>
+      function popup(){
+         alert("HBXIXUBXBIS");
+      }
+    function addingtasks(){
+      const cont=document.querySelector(".box")
+      let newele=document.createElement("div")
+      newele.innerHTML="<p>Using either of these methods will ensure that your div elements wrap correctly, preventing them from overflowing off the screen.</p>"
+      cont.prepend(newele)
+    }
+  </script>
 </head>
 <body class="container">
     <div id="main">
        <div id="menu">
         <img src="Logo_1.png" id="logo"> 
-        <li><a href="#"> <img src="Assets/images/task.png"></a></li>
-        <li><a href="#"> <img src="Assets/images/report.png"></a></li>
-        <li><a href="#"> <img src="Assets/images/notification.png"></a></li>
-        <li><a href="#"> <img src="Assets/images/calendar.png"></a></li>
-        <li><a href="#"> <img src="Assets/images/help.png"></a></li>
+        <li><a href="#"> <img src="Assets/images/task.png" title="Tasks"></a></li>
+        <li><a href="#"> <img src="Assets/images/report.png" title="Report"></a></li>
+        <li><a href="#"> <img src="Assets/images/notification.png" title="Notifications"></a></li>
+        <li><a href="#"> <img src="Assets/images/calendar.png" title="Calendar"></a></li>
+        <li><a href="#"> <img src="Assets/images/help.png" title="Help"></a></li>
        </div>
        <div id="content">
         <div class="box">
@@ -28,7 +39,7 @@
             <p>Using either of these methods will ensure that your div elements wrap correctly, preventing them from overflowing off the screen.</p>
          </div> 
         </div>
-        <div class="box">
+        <div class="box1">
             <div>
                <p>Using either of these methods will ensure that your div elements wrap correctly, preventing them from overflowing off the screen.</p>
             </div>
@@ -36,7 +47,7 @@
                <p>Using either of these methods will ensure that your div elements wrap correctly, preventing them from overflowing off the screen.</p>
             </div>
             <div id="add">
-                <a href="#"><img src="Assets/images/add.png"></a>
+                <button onclick="addingtasks()"><img src="Assets/images/add.png" title="Add Tasks"></button>
             </div> 
            </div>
        </div>
