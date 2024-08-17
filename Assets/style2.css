@@ -17,7 +17,7 @@ body{
 }
 
 #menu{
-    margin-top: 0.8vmax;
+    
     padding: 0.5vmax;
     display: grid ;
 }
@@ -26,7 +26,6 @@ body{
 }
 
 #logo{
-  
     filter: drop-shadow(1vmax 0.5vmax 0.4vmax rgba(0, 0, 0,0.5));
     height: 8vmax;
     width: 8vmax; 
@@ -65,9 +64,7 @@ body{
     padding: 1vmax;
     text-align: center;
 }
-#del{
-    padding-top: 15vmax;
-}
+
 #add img{
     border-radius: 2vmax;
     height: 9vmax;
@@ -92,6 +89,7 @@ h3{
     box-shadow: 0.5vmax 0.5vmax 3vmax 0.1vmax rgb(56,79,174);
 }
 @media only screen and (max-width:600px) {
+   
     #main{
         justify-content: center;
         display: grid;
