@@ -25,7 +25,9 @@ nav ul{
     display: flex;
     list-style-type: none;
 }
-
+button{
+    border-style: none;
+}
 ul li a{
     background-color: #e4dbf7;
     border-radius: 2vmax;

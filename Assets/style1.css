@@ -23,7 +23,9 @@ h1,h4,h2,h5{
     margin-left:38%;
     filter: drop-shadow(1.5vmax 1vmax 0.7vmax rgba(0, 0, 0,0.5));
 }
-
+button{
+    border-style: none;
+}
 #way{
     font-style: italic;
     background-color:#ee4c4b;

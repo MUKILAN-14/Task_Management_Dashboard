@@ -12,8 +12,13 @@ body{
     padding: 2vmax;
     margin: 2vmax;
     display: flex;
+    justify-content: flex-start;
+    
 }
+
 #menu{
+    margin-top: 0.8vmax;
+    padding: 0.5vmax;
     display: grid ;
 }
 #menu li{
@@ -27,7 +32,7 @@ body{
     width: 8vmax; 
 }
 #menu li img{
-    margin: 0.8vmax;
+    margin: 0.5vmax;
     margin-left: 2.5vmax;
     height: 3vmax;
     width: 3vmax;
@@ -35,12 +40,13 @@ body{
 }
 #content{
     font-size: 1.3vmax;
-    border-radius: 2vmax;
+    border-top-right-radius: 3vmax;
+    border-bottom-right-radius: 3vmax;
     background-color: rgb(228, 228, 228);
-    margin-left: 1vmax;
-    padding: 3vmax;
+    padding: 2vmax;
     display: flex;
     flex-wrap: wrap;
+    margin: 1vmax;
     
 }
 .box,.box1{
@@ -51,7 +57,7 @@ body{
     flex-wrap: wrap;
 }
 .box div,.box1 div{
-    flex-basis: 20%; 
+    flex-basis: 24%; 
     margin: 2vmax;
     background-color: #fbf3eb;
     box-shadow: 1vmax 0.5vmax 2vmax 0.1vmax rgba(5, 5, 5,0.5);
@@ -59,10 +65,13 @@ body{
     padding: 1vmax;
     text-align: center;
 }
+#del{
+    padding-top: 15vmax;
+}
 #add img{
     border-radius: 2vmax;
-    height: 100%;
-    width: 100%;
+    height: 9vmax;
+    width: 13vmax;
 }
 #add{
     display: grid;
@@ -72,22 +81,35 @@ body{
     border-style: none;
     background-color: white;
 }
+h3{
+    font-weight: bold;
+    color:#863d6c ;
+    background-color:#e5d8c1;
+    border-radius: 0.5vmax;
+    padding: 0.5vmax;
+}
 #add:hover{
     box-shadow: 0.5vmax 0.5vmax 3vmax 0.1vmax rgb(56,79,174);
 }
 @media only screen and (max-width:600px) {
     #main{
+        justify-content: center;
         display: grid;
     }
     #menu{
+        justify-content: center;
+    }
+    #icons{
+        position: static;
         padding: 2vmax;
         align-items: center;
         display: flex;
     }
     #menu li img{
-        margin-left: 1.5vmax;
+        margin-left: 1vmax;
     }
     #content{
+        border-radius: 3vmax;
         display: block;
         margin-left: 7vmax;
         margin-right: 7vmax;
